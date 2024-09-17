@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "vazir";
+    src: url("./font/Vazir-Medium-FD-WOL.woff") format("woff"),
+    url("./font/Vazir-Medium-FD-WOL.woff2") format("woff2"),
+    url("./font/Vazir-Medium-FD-WOL.ttf") format("ttf"),
+    url("./font/Vazir-Medium-FD-WOL.eot") format("eot");
+    
+}
+body{
+    font-family: "vazir",Arial, Helvetica, sans-serif;
+    direction: rtl !important;
+}
+
+.icon{
+    border-radius: 10px;
+    padding: 15px;
+    background: #ebeafb;
+    color: rgb(13, 110, 253);
+    margin: 1.5rem 0;
+    display: inline-flex;
+}
+.bg-card{
+    background: #1b2a4e;
+}
+.footer-border{
+    border-bottom: 3px solid;
+    padding-bottom: 1rem;
+    width: 75%;
+}
