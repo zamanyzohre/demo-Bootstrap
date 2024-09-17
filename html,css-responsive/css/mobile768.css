@@ -1,0 +1,34 @@
+
+    #nav1 {
+        padding :0 30px;
+    flex-wrap: wrap;
+    }
+    
+    
+    #features .fe-1{
+        width: auto;
+    }
+    #section1 .img{
+        background: none;
+        width: 0;
+    }
+    #section1 #bg{
+        height: 400px;
+
+    }
+    #section1 div .content-1{
+        text-align: center;
+    }
+    .p-7{
+        padding: 50px 50px 20px 50px;
+      }
+      .p-9{
+          padding: 4rem 3rem 4rem;
+        }
+         
+      #about #content-2 h1{
+        font-size: 30px;
+      }
+      #about #ico{
+        font-size:40px;
+      }

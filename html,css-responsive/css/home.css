@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../font/Vazir.eot"); /* IE9 Compat Modes */
+  src: url("../font/Vazir.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../font/Vazir.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../font/Vazir.woff") format("woff"),
+    /* Pretty Modern Browsers */ url("../font/Vazir.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+/* Main Styling */
+html,
+body {
+  font-family: "Vazir", Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-light {
+  background-color: #0c2461;
+  color:white;
+}
+.bg-primery {
+  background-color: #0c2461;
+  color:#f4f4f4;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav1 {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 150px;
+}
+#nav1 h1 {
+  align-self: center;
+
+}
+#nav1 #list {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1;
+    text-align: center;
+}
+#nav1 #list li {
+  display: flex;
+}
+#nav1 #list li a {
+  margin: 0.75rem;
+  padding: 0.65rem;
+}
+
+#nav1 ul li a:hover,
+#nav1 ul li a.current{
+  background-color: blueviolet;
+}
+
+#showcase {
+  background: #444 url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 90vh;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.p-1 {
+  padding: 0 2rem;
+}
+.p-2 {
+  padding: 100px;
+}
+.p-3 {
+  padding: 2.5rem 1.5rem;
+}
+
+.p-4 {
+  padding-bottom: 2.1rem ;
+}
+.p-5 {
+  padding-bottom: 0.8rem ;
+}
+.p-6 {
+  padding-bottom: 5.5rem ;
+}
+.p-7{
+  padding: 50px 40px 20px 20px;
+}
+.p-8{
+  padding-bottom: 1.5rem;
+}
+.p-9{
+  padding: 8rem 7rem 4rem;
+}
+.p-11{
+  padding: 50px 150px 20px 150px;
+}
+.font-header {
+  font-size: 60px;
+  line-height: 2.5em;
+}
+.font-para {
+  font-size: 20px;
+}
+
+#showcase a {
+  background-color: #0c2461;
+  padding: 0.7rem 1rem;
+}
+#showcase a:hover{
+  background-color:white;
+  color: #888;
+}
+#showcase div {
+  padding: 2em 0;
+}
+#section1 #bg {
+  display: flex;
+  flex: 1;
+}
+#section1 .img {
+  background: url("../img/photo-1.jpg") no-repeat;
+  background-size: cover;
+  width: 150vw;
+  height: 60vh;
+}
+.bg-dark {
+  background-color: #333;
+  color: white;
+}
+
+#section1 #bg .content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.9em;
+}
+#section1 #bg .content-1 h2,
+p {
+  padding: 0 0 1.5rem 0;
+}
+#section1 #bg .content-1 a {
+  background-color: #0c2461;
+  padding: 0.7rem 1.5rem;
+}
+#section1 #bg .content-1 a:hover{
+  background-color:white;
+  color: #888;
+}
+#features{
+  display: flex;
+  justify-content:space-between;
+}
+#features .fe-1{
+  width: 45%;
+  text-align: center;
+  background-color:#f4f4f4;
+  height: auto;
+  padding: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+#features .foo{
+  background-color: #0c2461;
+  color: white;
+ }
+
+#about{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #f4f4f4;
+  height: auto;
+}
+#about #ico{
+  width: auto;
+  font-size:55px;
+  padding:20px 0 0 20px;
+  
+}
+#about #content-2{
+  text-align: right;
+width:auto;
+}
+#about #content-2 h1{
+  font-size: 40px;
+}
+#About-showcase{
+background: #444 url("../img/test-bg.jpg") center center/cover;
+height:auto;
+text-align: center;
+}
+#About-showcase h1{
+  color: white;
+  font-size: 40px;
+}
+.m-1{
+  margin-top: 40px;
+}
+.flex-1{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#About-showcase .img{
+  border-radius: 50%;
+  height: 100px;
+
+}
+#About-showcase div{
+  padding: 0.8rem 0.7rem 0.3rem;
+  text-align: right;
+  opacity: 0.9;
+}
+#About-foo{
+  height: 13.5vh;
+  text-align: center;
+  padding: 2rem;
+}
+#Contact-showcase div{
+  text-align: right;
+}
+#Contact-showcase #con{
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+#Contact-showcase h1{
+  font-size: 40px;
+  padding-bottom: 2rem;
+}
+#Contact-showcase .f{
+  margin:10px 0 5px 0;
+}
+#Contact-showcase #con input,textarea {
+  padding:10px;
+border:1px solid #ddd;
+/* width: 100%; */
+  
+} 
+ #Contact-showcase #con #btn{
+  margin-top: 40px;
+  background: #0c2461;
+  border: none;
+  color: white;
+  padding: 13px 20px;
+  font-size: large;
+ }
+ .tamas-footer {
+  display: flex;
+    justify-content: space-evenly;
+ }
+ .tamas-footer .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px ;
+ }
+ .tamas-footer .item i{
+  padding-bottom: 12px;
+ }
+ .tamas-footer .item h3{
+  padding-bottom: 25px;
+ }
+ 
